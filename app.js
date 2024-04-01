@@ -101,9 +101,6 @@ progressSlider.addEventListener('input', function () {
 
 // Handle audio ending
 audio.onended = function () {
-    const playPauseIcon = document.getElementById('playPauseIcon');
-    //playPauseIcon.classList.remove('bi-pause-circle-fill');
-    //playPauseIcon.classList.add('bi-play-circle-fill');
     play_btns[current_song].innerHTML = "<i class=\"bi bi-pause\"></i> Pause";
     prog_play_btn.innerHTML = "<i class=\"bi bi-pause\"></i>";
     progressSlider.value = 0;
