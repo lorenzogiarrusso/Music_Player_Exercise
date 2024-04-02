@@ -254,6 +254,10 @@ CARDS SECTION
     padding: 2em;
 }
 
+.card-back {
+    overflow: scroll;
+}
+
 .card-footer {
     position: absolute;
     bottom: 1em;
